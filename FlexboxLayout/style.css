@@ -1,0 +1,30 @@
+/* General styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #eee;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      padding: 5px;
+    }
+  }
+  
